@@ -1,6 +1,6 @@
 
 "use client"
-import {Connecor , useAccount , useDisconnect, useConnect , useConnectors , useConnection} from 'wagmi'
+import { useAccount , useDisconnect, useConnect , useConnectors , useConnection} from 'wagmi'
 import { Button } from "@/components/ui/button"
 
 export default function WalletOptions() {
