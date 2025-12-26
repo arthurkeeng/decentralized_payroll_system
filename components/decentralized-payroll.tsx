@@ -37,7 +37,7 @@ export function DecentralizedPayroll() {
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
             <ShieldCheck size={20} />
           </div>
-          <span className="font-bold tracking-tight text-xl">PAYROLL.ETH</span>
+          <span className="font-bold tracking-tight text-xl">Decentrapay</span>
         </div>
 
         <nav className="flex-1 px-4 space-y-1">
