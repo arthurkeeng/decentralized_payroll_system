@@ -206,7 +206,6 @@ export function DecentralizedPayroll() {
                   </Button>
                   <Button
                     variant="destructive"
-                    variant="outline"
                     className="w-full justify-start text-sm border-destructive/30 hover:bg-destructive/10 text-destructive bg-transparent"
                   >
                     <ShieldCheck size={16} className="mr-3" /> Emergency Freeze
