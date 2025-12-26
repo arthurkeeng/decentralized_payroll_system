@@ -140,7 +140,7 @@ export function DecentralizedPayroll() {
                   <CardTitle className="text-lg">Recent Employees</CardTitle>
                   <CardDescription>Management of active payroll recipients</CardDescription>
                 </div>
-                <Button variant="ghost" size="sm" className="text-primary font-medium hover:bg-primary/10">
+                <Button variant="default" size="sm" className="text-primary font-medium hover:bg-primary/10">
                   View All
                 </Button>
               </CardHeader>
@@ -196,12 +196,12 @@ export function DecentralizedPayroll() {
                   {
                   !openFunding && <Button 
                   onClick = {() => setOpenFunding(true)}
-                  variant="secondary" className="w-full justify-start text-sm">
+                  variant="outline" className="w-full justify-start text-sm">
                     <ArrowUpRight size={16} className="mr-3 text-primary" /> Fund Payroll Contract
                   </Button>
 
                   }
-                  <Button variant="secondary" className="w-full justify-start text-sm">
+                  <Button variant="outline" className="w-full justify-start text-sm">
                     <Users size={16} className="mr-3 text-primary" /> Update HR/Accountant
                   </Button>
                   <Button
@@ -319,8 +319,8 @@ function EmployeeItem({
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button
-              variant="ghost"
-              size="icon"
+              variant="outline"
+              size="md"
               className="h-8 w-8 opacity-0 group-hover:opacity-100 transition-opacity"
             >
               <MoreVertical size={16} />
