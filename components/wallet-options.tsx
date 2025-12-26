@@ -16,7 +16,7 @@ export default function WalletOptions() {
                 <Button 
                 onClick = {() => disconnect()}
                 className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-5 h-9 font-medium"> 
-                    Disconnect {address.slice(0,4)}..
+                    Disconnect {address?.slice(0,4)}..
                 </Button>
 
                 {/* <button }></button> */}
