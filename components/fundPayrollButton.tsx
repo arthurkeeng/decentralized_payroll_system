@@ -17,7 +17,7 @@ export default function FundPayrollButton({cancelFunding} : FundPayrollButtonPro
     const {data , writeContract, isPending , isSuccess, error} = useWriteContract()
 
     const handleFund = () => {
-        if (amount == 0) return ; 
+        if (parseInt(amount) == 0) return ; 
 
         writeContract({
             address : PAYROLL_ADDRESS, 
