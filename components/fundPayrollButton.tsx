@@ -12,7 +12,7 @@ interface FundPayrollButtonProps {
 }
 export default function FundPayrollButton({cancelFunding} : FundPayrollButtonProps){
     const {isConnected} = useConnection()
-    const [amount , setAmount]  = useState(0)
+    const [amount , setAmount]  = useState("0")
 
     const {data , writeContract, isPending , isSuccess, error} = useWriteContract()
 
